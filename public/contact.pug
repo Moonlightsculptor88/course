@@ -1,0 +1,234 @@
+doctype html
+html.no-js(lang='zxx')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Courses | Education
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='shortcut icon', type='image/x-icon', href='assets/img/favicon.ico')
+    // CSS here
+    link(rel='stylesheet', href='assets/css/bootstrap.min.css')
+    link(rel='stylesheet', href='assets/css/owl.carousel.min.css')
+    link(rel='stylesheet', href='assets/css/slicknav.css')
+    link(rel='stylesheet', href='assets/css/animate.min.css')
+    link(rel='stylesheet', href='assets/css/hamburgers.min.css')
+    link(rel='stylesheet', href='assets/css/magnific-popup.css')
+    link(rel='stylesheet', href='assets/css/fontawesome-all.min.css')
+    link(rel='stylesheet', href='assets/css/themify-icons.css')
+    link(rel='stylesheet', href='assets/css/themify-icons.css')
+    link(rel='stylesheet', href='assets/css/slick.css')
+    link(rel='stylesheet', href='assets/css/nice-select.css')
+    link(rel='stylesheet', href='assets/css/style.css')
+  // ? Preloader Start
+  body
+    #preloader-active
+      .preloader.d-flex.align-items-center.justify-content-center
+        .preloader-inner.position-relative
+          .preloader-circle
+          .preloader-img.pere-text
+            img(src='assets/img/logo/loder.png', alt='')
+    // Preloader Start
+    // Header Start
+    .header-area.header-transparent
+      .main-header
+        .header-bottom.header-sticky
+          .container-fluid
+            .row.align-items-center
+              // Logo
+              .col-xl-2.col-lg-2
+                .logo
+                  a(href='index.html')
+                    img(src='assets/img/logo/logo.png', alt='')
+              .col-xl-10.col-lg-10
+                .menu-wrapper.d-flex.align-items-center.justify-content-end
+                  // Main-menu
+                  .main-menu.d-none.d-lg-block
+                    nav
+                      ul#navigation
+                        li.active
+                          a(href='index.html') Home
+                        li
+                          a(href='courses.html') Courses
+                        li
+                          a(href='contact.html') Contact
+                        // Button
+                        li.button-header.margin-left
+                          a.btn(href=' https://forms.gle/uC4kbqAB2UtECD2c8') Join
+                        li.button-header
+                          a.btn.btn3(href='login.html') Log in
+              // Mobile Menu
+              .col-12
+                .mobile_menu.d-block.d-lg-none
+    // Header End
+    main
+      // ? slider Area Start
+      section.slider-area.slider-area2
+        .slider-active
+          // Single Slider
+          .single-slider.slider-height2
+            .container
+              .row
+                .col-xl-8.col-lg-11.col-md-12
+                  .hero__caption.hero__caption2
+                    h1(data-animation='bounceIn', data-delay='0.2s') Contact us
+                    // breadcrumb Start
+                    nav(aria-label='breadcrumb')
+                      ol.breadcrumb
+                        li.breadcrumb-item
+                          a(href='index.html') Home
+                        li.breadcrumb-item
+                          a(href='#') Contact
+                    // breadcrumb End
+                    // ?  Contact Area start
+                    section.contact-section
+                      .container
+                        section.team-area.fix
+                          .container
+                            .row.justify-content-center
+                              .col-xl-7.col-lg-8
+                                .section-tittle.text-center.mb-55
+                                  h2 Our Teacher
+                            .team-active
+                              .single-cat.text-center
+                                .cat-icon
+                                  img(src='assets/img/gallery/team1.png', alt='')
+                                .cat-cap
+                                  h5
+                                    a(href='') Vishakha Mathur
+                                  p
+                                    | Well qualified teacher with over 15 years of experience
+                                    | -Degree in BA and MA Public Administration
+                                    | -Certified NTT Teacher.
+                        .row
+                          .col-12
+                            h2.contact-title Get in Touch
+                          .col-lg-8
+                            form#contactForm.form-contact.contact_form(action='contact_process.php', method='post', novalidate='novalidate')
+                              .row
+                                .col-12
+                                  .form-group
+                                    textarea#message.form-control.w-100(name='message', cols='30', rows='9', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter Message'", placeholder=' Enter Message')
+                                .col-sm-6
+                                  .form-group
+                                    input#name.form-control.valid(name='name', type='text', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter your name'", placeholder='Enter your name')
+                                .col-sm-6
+                                  .form-group
+                                    input#email.form-control.valid(name='email', type='email', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter email address'", placeholder='Email')
+                                .col-12
+                                  .form-group
+                                    input#subject.form-control(name='subject', type='text', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter Subject'", placeholder='Enter Subject')
+                              .form-group.mt-3
+                                button.button.button-contactForm.boxed-btn(type='submit') Send
+                          .col-lg-3.offset-lg-1
+                            .media.contact-info
+                              span.contact-info__icon
+                                i.ti-home
+                              .media-body
+                                h3 Purva Fountain Square Apartment, Marathalli.
+                                p Bangalore-560037
+                            .media.contact-info
+                              span.contact-info__icon
+                                i.ti-tablet
+                              .media-body
+                                h3 +91 9019641522
+                                p Mon to Fri 9am to 6pm
+                            .media.contact-info
+                              span.contact-info__icon
+                                i.ti-email
+                              .media-body
+                                h3 vishakha.mathur@hotmail.com
+                                p Send us your query anytime!
+                    // Contact Area End
+    footer
+      .footer-wrappper.footer-bg
+        // Footer Start
+        .footer-area.footer-padding
+          .container
+            .row.justify-content-between
+              .col-xl-4.col-lg-5.col-md-4.col-sm-6
+                .single-footer-caption.mb-50
+                  .single-footer-caption.mb-30
+                    // logo
+                    .footer-logo.mb-25
+                      a(href='index.html')
+                        img(src='assets/img/logo/logo1.png', alt='')
+                    .footer-tittle
+                      .footer-pera
+                        p We aim at giving our best and helping the world move forward.
+                    // social
+                    .footer-social
+                      a(href='#')
+                        i.fab.fa-twitter
+                      a(href='#')
+                        i.fab.fa-facebook-f
+                      a(href='#')
+                        i.fab.fa-pinterest-p
+              .col-xl-2.col-lg-4.col-md-4.col-sm-6
+                .single-footer-caption.mb-50
+                  .footer-tittle
+                    h4 Support
+                    ul
+                      li(style='color:aliceblue;') vishakha.mathur@hotmail.com
+                      li(style='color:aliceblue;') +91 9019641522
+                      li(style='color:aliceblue;') Bangalore
+                      li(style='color:aliceblue;') India
+              .col-xl-2.col-lg-3.col-md-4.col-sm-6
+                .single-footer-caption.mb-50
+                  .footer-tittle
+                    h4 Subjects
+                    ul
+                      li
+                        a(href='#') Hindi
+                      li
+                        a(href='#') Sanskrit
+                      li
+                        a(href='#') History
+                      li
+                        a(href='#') More
+        // footer-bottom area
+        .footer-bottom-area
+          .container
+            .footer-border
+              .row.d-flex.align-items-center
+                .col-xl-12
+                  .footer-copy-right.text-center
+                    p(style='font-size: small;') Design By Pritam
+        // Footer End
+    #back-top
+      a(title='Go to Top', href='#')
+        i.fas.fa-level-up-alt
+    // JS here
+    script(src='./assets/js/vendor/modernizr-3.5.0.min.js')
+    // Jquery, Popper, Bootstrap
+    script(src='./assets/js/vendor/jquery-1.12.4.min.js')
+    script(src='./assets/js/popper.min.js')
+    script(src='./assets/js/bootstrap.min.js')
+    // Jquery Mobile Menu
+    script(src='./assets/js/jquery.slicknav.min.js')
+    // Jquery Slick , Owl-Carousel Plugins
+    script(src='./assets/js/owl.carousel.min.js')
+    script(src='./assets/js/slick.min.js')
+    // One Page, Animated-HeadLin
+    script(src='./assets/js/wow.min.js')
+    script(src='./assets/js/animated.headline.js')
+    script(src='./assets/js/jquery.magnific-popup.js')
+    // Date Picker
+    script(src='./assets/js/gijgo.min.js')
+    // Nice-select, sticky
+    script(src='./assets/js/jquery.nice-select.min.js')
+    script(src='./assets/js/jquery.sticky.js')
+    // counter , waypoint,Hover Direction
+    script(src='./assets/js/jquery.counterup.min.js')
+    script(src='./assets/js/waypoints.min.js')
+    script(src='./assets/js/jquery.countdown.min.js')
+    script(src='./assets/js/hover-direction-snake.min.js')
+    // contact js
+    script(src='./assets/js/contact.js')
+    script(src='./assets/js/jquery.form.js')
+    script(src='./assets/js/jquery.validate.min.js')
+    script(src='./assets/js/mail-script.js')
+    script(src='./assets/js/jquery.ajaxchimp.min.js')
+    // Jquery Plugins, main Jquery
+    script(src='./assets/js/plugins.js')
+    script(src='./assets/js/main.js')
